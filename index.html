@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 height-400">
+          <div
+            id="preview"
+            style="
+              height: 300px;
+            "
+          >
+        <img id="featured" class="img-fluid img-res" src="img/preview.jpg" alt="">
+        </div>
+          <div style="height: 100px;">
+            <div class="row mt-2">
+              <div class="col-sm">
+                <img id="stamp1" class="img-fluid" src="img/1.jpg" alt="" />
+              </div>
+              <div class="col-sm">
+                <img id="stamp2" class="img-fluid" src="img/2.jpg" alt="" />
+              </div>
+              <div class="col-sm">
+                <img id="stamp3" class="img-fluid" src="img/3.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 height-400 bg-light">
+          <h2 id="product-name">
+            Product Name: Product One
+          </h2>
+          <h3">
+            Price: <span id="unitPrice"> 130 </span>
+          </h3>
+          <p id="in-stock">
+            In Stock
+          </p>
+          <h3>
+            Amount:
+          </h3>
+          <button type="button" id="dec">-</button>
+          <span id="amount">
+              0
+            </span>
+            <button type="button" id="inc">+</button>
+              <p class="mt-4">
+                  Total Cost:
+                  <span id="total-cost">
+                  </span>
+              </p>
+          <div>
+              <button type="button" name="" id="cart" class="btn btn-info mt-3" btn-lg btn-block">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

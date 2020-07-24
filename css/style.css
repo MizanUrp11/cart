@@ -1,0 +1,18 @@
+.height-400{
+    height: 400px;
+}
+.height-200{
+    height: 200px;
+}
+.height-600{
+    height: 600px;
+}
+
+#stamp1:hover,#stamp2:hover,#stamp3:hover{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.img-res{
+    background-position: center;
+    background-size: cover;
+}
